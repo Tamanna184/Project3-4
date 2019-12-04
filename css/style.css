@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: fantasy;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding: 30px 0px;
+    background-image: url(../images/bnr2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 95vh;
+}
+
+.logo {
+    max-width: 30%;
+    flex-basis: 30%;
+}
+
+.logo h1 {
+    font-size: 39px;
+    font-family: serif;
+}
+
+.menu {
+    max-width: 70%;
+    flex-basis: 70%;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 500;
+    font-family: cursive;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.4s all ease;
+}
+
+ul li:hover a {
+    background-color: #00A4D4;
+    padding: 10px;
+    color: black;
+    border-radius: 40px;
+}
+
+.header-content {
+    width: 500px;
+    text-align: justify;
+    margin-top: 240px;
+    padding-left: 12%;
+}
+
+.header-content h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 17px;
+}
+
+.header-content p {
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 25px;
+}
+
+.header-content button {
+    padding: 16px 30px;
+    font-size: 25px;
+    border: 1px;
+    background-color: #00A4D4;
+    color: white;
+    border-radius: 30px;
+    font-weight: 800;
+}
+
+.header1 {
+    padding: 30px 0px;
+    background-image: url(../images/bnr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+.header1-content{
+    margin: 0px 50px;
+    padding: 170px;
+}
+.header1 {
+    padding: 30px 0px;
+    background-image: url(../images/bnr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+.header1-content{
+    margin: 0px 50px;
+    padding: 170px;
+    text-align: justify-all;
+}
+.header1-content h3{
+    font-size:25px;
+    font-family: sans-serif;
+    color:#9FA5AE; 
+}
+.header1-content h2{
+    font-size:60px;
+    font-family: fantasy;
+    color:#1A2545;
+    font-weight:1000;
+}
+.header1-content h1{
+    font-size:60px;
+    font-family: monospace;
+    color:#40A7EE;
+    font-weight:bolder;
+}
+.header1-content p{
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 25px;
+    color: #C4C6D3;
+    width: 30%;
+    
+}
+.header1-content button{
+    padding: 5px 10px;
+    font-size: 25px;
+    border-color: #60697F;
+    background-color: #ffff;
+    color: #797E8C;
+    border-radius: 30px;
+    
+}
+
+
